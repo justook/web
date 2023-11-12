@@ -1,12 +1,135 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-canvas {
-    border: 1px solid #000;
+
+li {
+    margin-bottom: 0.7em;
+}
+
+header {
+    display: block;
+    background-color: #43C4F7;
+    height: 72px;
+}
+
+header h1 {
+    color: white;
+    float: left;
+    font-weight: 400;
+    font-size: 27px;
+    height: 42px;
+    padding-left: 5em;
+    letter-spacing: 0.5em;
+}
+
+.pay {
+    float: right;
+    padding-top: 22px;
+    padding-right: 5em;
+}
+
+.pay a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.3em;
+}
+
+.sec {
+    display: block;
+    height: 700px;
+    border: 3px solid #d9d9d9;
+    margin-top: 1em;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.subject {
+    font-size: 30px;
+    color: #d10202;
+    font-weight: 700;
+    margin-left: 3em;
+    border-bottom: 2px solid #d10202;
+    width: 2.5em;
+}
+
+.sec2 {
+    float: left;
+    width: 600px;
+    border-top: 1px solid #d9d9d9;
+}
+
+.sec2 p {
+    font-size: 1.5em;
+    margin-left: 1em;
+}
+
+.sec2 img{
+    float: left;
+    height: 300px;
+    margin-left: 10em;
+    margin-top: 2.5em;
+}
+
+.sec4 {
+    float: right;
+    width: 690px;
+    border-left: 1px solid #d9d9d9;
+    padding-left: 4em;
+}
+
+.sec4 p {
+    font-size: 1.5em;
+    margin-left: 1em;
+}
+
+.sec4 img{
+    float: left;
+    height: 300px;
+    margin-left: 10em;
+    margin-top: 2.5em;
+}
+
+.img1 img{
+    height: 150px;
+}
+
+.img1 {
+    height: 320px;
+    margin-bottom: 50px;
+}
+
+.on img {
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.on {
+    border-top: 1px solid #d9d9d9;
+}
+
+.img3 img{
+    height: 190px;
+}
+
+.snack a{
+    color: rgb(53, 53, 222);
+    margin-left: 650px;
+
+}
+
+.snack {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    color: #999;
+    text-align: center;
+}
+
+.foot {
+    padding-right: 10px;
 }
